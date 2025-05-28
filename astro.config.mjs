@@ -12,6 +12,11 @@ export default defineConfig({
       title: "CompactifAI API",
       social: [
         {
+          icon: "youtube",
+          label: "Youtube",
+          href: "https://www.youtube.com/@multiversecomputing",
+        },
+        {
           icon: "github",
           label: "GitHub",
           href: "https://github.com/Hoooman-Studio/multiverse-docs",
