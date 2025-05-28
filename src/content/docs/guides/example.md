@@ -1,11 +1,46 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: Markdown Options Example
+description: A short example showing standard Markdown features
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+## Headings
 
-## Further reading
+# H1
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+## H2
+
+### H3
+
+## Emphasis
+
+_Italic_  
+**Bold**
+
+## Lists
+
+- Unordered item 1
+- Unordered item 2
+  - Nested item
+
+1. Ordered item 1
+2. Ordered item 2
+
+## Links
+
+[MDN Web Docs](https://developer.mozilla.org/)
+
+## Blockquote
+
+> This is a blockquote.
+
+## Code
+
+Inline code: `const x = 1;`
+
+Code block:
+
+```js
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+```

@@ -1,22 +1,26 @@
 ---
-title: Welcome to the Multiverse Docs
-description: Get started building your docs site with Starlight.
+title: Welcome to CompactifAI API
+description: Build intelligent applications with our state-of-the-art language models.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Build intelligent applications with our state-of-the-art language models.
   image:
-    file: ../../assets/multiverse-logo.png
+    file: ../../assets/logo.png
   actions:
-    - text: Get Started
+    - text: Quickstart
       link: /guides/example/
       icon: right-arrow
+    - text: API Reference
+      link: https://starlight.astro.build
+      icon: open-book
+      variant: minimal
 ---
 
 import { Card, CardGrid } from "@astrojs/starlight/components";
 
 ## Next steps
 
-<CardGrid>
+<CardGrid stagger>
   <Card title="Update content" icon="pencil">
     Edit `src/content/docs/index.mdx` to see this page change.
   </Card>

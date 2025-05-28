@@ -6,24 +6,15 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://docs.multiversecomputing.com",
+  site: "https://docs.compactif.ai",
   integrations: [
     starlight({
-      title: "Multiverse",
-      logo: {
-        src: "./src/assets/multiverse-logo.png",
-        replacesTitle: true,
-      },
-      customCss: [
-        "./src/styles/global.css",
-        "./src/styles/fonts.css",
-        "@fontsource-variable/jetbrains-mono",
-      ],
+      title: "CompactifAI API",
       social: [
         {
-          icon: "youtube",
-          label: "Youtube",
-          href: "https://www.youtube.com/@multiversecomputing",
+          icon: "github",
+          label: "GitHub",
+          href: "https://github.com/Hoooman-Studio/multiverse-docs",
         },
       ],
       sidebar: [
@@ -39,7 +30,8 @@ export default defineConfig({
           autogenerate: { directory: "reference" },
         },
       ],
-      favicon: "favicon.ico",
+      customCss: ["./src/styles/fonts.css", "./src/styles/global.css"],
+      favicon: "favicon.svg",
     }),
   ],
 
